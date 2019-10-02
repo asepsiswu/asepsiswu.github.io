@@ -1,15 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on 生物狗上天</title>
+    <title>Categories on BioGoTop生物狗上天</title>
     <link>https://asepsiswu.github.io/categories/</link>
-    <description>Recent content in Categories on 生物狗上天</description>
+    <description>Recent content in Categories on BioGoTop生物狗上天</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Oct 2019 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="https://asepsiswu.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Download</title>
+      <link>https://asepsiswu.github.io/categories/download/</link>
+      <pubDate>Wed, 02 Oct 2019 00:00:00 +0800</pubDate>
+      
+      <guid>https://asepsiswu.github.io/categories/download/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://asepsiswu.github.io/categories/hugo/</link>
+      <pubDate>Wed, 02 Oct 2019 00:00:00 +0800</pubDate>
+      
+      <guid>https://asepsiswu.github.io/categories/hugo/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>syntax</title>

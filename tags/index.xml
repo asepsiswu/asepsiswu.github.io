@@ -1,15 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on 生物狗上天</title>
+    <title>Tags on BioGoTop生物狗上天</title>
     <link>https://asepsiswu.github.io/tags/</link>
-    <description>Recent content in Tags on 生物狗上天</description>
+    <description>Recent content in Tags on BioGoTop生物狗上天</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Oct 2019 10:07:04 +0800</lastBuildDate>
     
 	<atom:link href="https://asepsiswu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>hugo</title>
+      <link>https://asepsiswu.github.io/tags/hugo/</link>
+      <pubDate>Wed, 02 Oct 2019 10:07:04 +0800</pubDate>
+      
+      <guid>https://asepsiswu.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>baidu</title>
+      <link>https://asepsiswu.github.io/tags/baidu/</link>
+      <pubDate>Wed, 02 Oct 2019 00:00:00 +0800</pubDate>
+      
+      <guid>https://asepsiswu.github.io/tags/baidu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>website</title>
+      <link>https://asepsiswu.github.io/tags/website/</link>
+      <pubDate>Wed, 02 Oct 2019 00:00:00 +0800</pubDate>
+      
+      <guid>https://asepsiswu.github.io/tags/website/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>css</title>

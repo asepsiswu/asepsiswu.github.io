@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linuxes on BioGoTop生物狗上天</title>
+    <link>https://asepsiswu.github.io/linux/</link>
+    <description>Recent content in Linuxes on BioGoTop生物狗上天</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 02 Oct 2019 10:07:04 +0800</lastBuildDate>
+    
+	<atom:link href="https://asepsiswu.github.io/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo partial</title>
+      <link>https://asepsiswu.github.io/2019/10/02/hugo-partial/</link>
+      <pubDate>Wed, 02 Oct 2019 10:07:04 +0800</pubDate>
+      
+      <guid>https://asepsiswu.github.io/2019/10/02/hugo-partial/</guid>
+      <description>** partial templates
+inject layouts/partials/.html to proper area</description>
+    </item>
+    
+    <item>
+      <title>Baidupcs login with bduss</title>
+      <link>https://asepsiswu.github.io/2019/10/02/baidupcs-login-with-bduss/</link>
+      <pubDate>Wed, 02 Oct 2019 00:00:00 +0800</pubDate>
+      
+      <guid>https://asepsiswu.github.io/2019/10/02/baidupcs-login-with-bduss/</guid>
+      <description>sudo pacman -S baidupcs-go-bin baidupcs login -budss=1duSGhrTmNmazNKUl------   chrome goto pan.baidu.com login by weibo click the green lock icon in url bar Cookie &amp;ndash;&amp;gt; baidu.com &amp;ndash;&amp;gt; Cookies &amp;ndash;&amp;gt; BDUSS  </description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://asepsiswu.github.io/2019/10/02/hugo/</link>
+      <pubDate>Wed, 02 Oct 2019 00:00:00 +0800</pubDate>
+      
+      <guid>https://asepsiswu.github.io/2019/10/02/hugo/</guid>
+      <description>hugo permalinks contentSubdir = &amp;ldquo;/:year/:month/:day/:slug&amp;rdquo; 能否程序化，省得每个文件夹都要copy and modify</description>
+    </item>
+    
+  </channel>
+</rss>

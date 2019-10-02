@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>emoji on 生物狗上天</title>
+    <title>emoji on BioGoTop生物狗上天</title>
     <link>https://asepsiswu.github.io/tags/emoji/</link>
-    <description>Recent content in emoji on 生物狗上天</description>
+    <description>Recent content in emoji on BioGoTop生物狗上天</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 05 Mar 2019 00:00:00 +0000</lastBuildDate>
@@ -13,10 +13,10 @@
     
     <item>
       <title>Emoji Support</title>
-      <link>https://asepsiswu.github.io/emoji-support/</link>
+      <link>https://asepsiswu.github.io/2019/03/05/emoji-support/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://asepsiswu.github.io/emoji-support/</guid>
+      <guid>https://asepsiswu.github.io/2019/03/05/emoji-support/</guid>
       <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
     </item>
     
