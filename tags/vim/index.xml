@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vim on BioGoTop生物狗上天</title>
+    <link>https://asepsiswu.github.io/tags/vim/</link>
+    <description>Recent content in vim on BioGoTop生物狗上天</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 09 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://asepsiswu.github.io/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>hugo vim snippet</title>
+      <link>https://asepsiswu.github.io/2019/10/09/hugo-vim-snippet/</link>
+      <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://asepsiswu.github.io/2019/10/09/hugo-vim-snippet/</guid>
+      <description>vim 写hugo，ultisnips补全</description>
+    </item>
+    
+    <item>
+      <title>ultisnip writing</title>
+      <link>https://asepsiswu.github.io/2019/10/09/ultisnip-writing/</link>
+      <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://asepsiswu.github.io/2019/10/09/ultisnip-writing/</guid>
+      <description>编写ultisnip的</description>
+    </item>
+    
+    <item>
+      <title>ycmd complete with dict </title>
+      <link>https://asepsiswu.github.io/2019/10/09/ycmd-complete-with-dict/</link>
+      <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://asepsiswu.github.io/2019/10/09/ycmd-complete-with-dict/</guid>
+      <description>youcompleteme 自动补全源添加字典</description>
+    </item>
+    
+  </channel>
+</rss>

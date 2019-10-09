@@ -6,10 +6,91 @@
     <description>Recent content in 2019/10 on BioGoTop生物狗上天</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Oct 2019 23:58:42 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 09 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://asepsiswu.github.io/archives/2019/10/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>hugo github pages </title>
+      <link>https://asepsiswu.github.io/2019/10/09/hugo-github-pages/</link>
+      <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://asepsiswu.github.io/2019/10/09/hugo-github-pages/</guid>
+      <description>设置public文件夹git推送</description>
+    </item>
+    
+    <item>
+      <title>hugo section title plural</title>
+      <link>https://asepsiswu.github.io/2019/10/09/hugo-section-title-plural/</link>
+      <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://asepsiswu.github.io/2019/10/09/hugo-section-title-plural/</guid>
+      <description>section 为非plural, config.toml设置 pluralizelisttitles</description>
+    </item>
+    
+    <item>
+      <title>hugo summary 优化</title>
+      <link>https://asepsiswu.github.io/2019/10/09/hugo-summary-%E4%BC%98%E5%8C%96/</link>
+      <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://asepsiswu.github.io/2019/10/09/hugo-summary-%E4%BC%98%E5%8C%96/</guid>
+      <description>list 页显示漂亮的summary</description>
+    </item>
+    
+    <item>
+      <title>hugo vim snippet</title>
+      <link>https://asepsiswu.github.io/2019/10/09/hugo-vim-snippet/</link>
+      <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://asepsiswu.github.io/2019/10/09/hugo-vim-snippet/</guid>
+      <description>vim 写hugo，ultisnips补全</description>
+    </item>
+    
+    <item>
+      <title>rstudio config</title>
+      <link>https://asepsiswu.github.io/2019/10/09/rstudio-config/</link>
+      <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://asepsiswu.github.io/2019/10/09/rstudio-config/</guid>
+      <description>Rstudio的简单配置</description>
+    </item>
+    
+    <item>
+      <title>ultisnip writing</title>
+      <link>https://asepsiswu.github.io/2019/10/09/ultisnip-writing/</link>
+      <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://asepsiswu.github.io/2019/10/09/ultisnip-writing/</guid>
+      <description>编写ultisnip的</description>
+    </item>
+    
+    <item>
+      <title>ycmd complete with dict </title>
+      <link>https://asepsiswu.github.io/2019/10/09/ycmd-complete-with-dict/</link>
+      <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://asepsiswu.github.io/2019/10/09/ycmd-complete-with-dict/</guid>
+      <description>youcompleteme 自动补全源添加字典</description>
+    </item>
+    
+    <item>
+      <title>system timeset</title>
+      <link>https://asepsiswu.github.io/2019/10/08/system-timeset/</link>
+      <pubDate>Tue, 08 Oct 2019 11:33:11 +0800</pubDate>
+      
+      <guid>https://asepsiswu.github.io/2019/10/08/system-timeset/</guid>
+      <description>双系统win10和manjaro时间不一致</description>
+    </item>
+    
+    <item>
+      <title>Git2</title>
+      <link>https://asepsiswu.github.io/2019/10/03/git2/</link>
+      <pubDate>Thu, 03 Oct 2019 11:27:45 +0800</pubDate>
+      
+      <guid>https://asepsiswu.github.io/2019/10/03/git2/</guid>
+      <description>git命令备忘</description>
+    </item>
     
     <item>
       <title>Office2010</title>
@@ -17,7 +98,7 @@
       <pubDate>Wed, 02 Oct 2019 23:58:42 +0800</pubDate>
       
       <guid>https://asepsiswu.github.io/2019/10/02/office2010/</guid>
-      <description>Office 2010 VOL chn Office Professional Plus 2010 VOL (x86)- (简体中文32位版本） ed2k://|file|SW_DVD5_Office_Professional_Plus_2010_W32_ChnSimp_MLF_X16-52528.iso|926285824|3FE784EF02E56648D0920E7D5CA5A9A3|/ Office Professional Plus 2010 VOL (x64)- (简体中文64位版本) ed2k://|file|SW_DVD5_Office_Professional_Plus_2010_64Bit_ChnSimp_MLF_X16-52534.iso|1009090560|C0BADE6BE073CC00609E6CA16D0C62AC|/ Office Professional Plus 2010 With SP1VOL (x86) – (简体中文32位含SP1更新） ed2k://|file|SW_DVD5_Office_Professional_Plus_2010w_SP1_W32_ChnSimp_CORE_MLF_X17-76734.iso|1412091904|79B75EE3F629A1BD925E6C0AEFDECA10|/ Office Professional Plus 2010 With SP1VOL (x64) – (简体中文64位含SP1更新） ed2k://|file|SW_DVD5_Office_Professional_Plus_2010w_SP1_64Bit_ChnSimp_CORE_MLF_X17-76742.iso|1612515328|032320121E0EE36D8F0C32EC89CA0AB9|/ 激活 google aact 激活</description>
+      <description>Office2010 下载</description>
     </item>
     
     <item>
@@ -26,8 +107,7 @@
       <pubDate>Wed, 02 Oct 2019 10:07:04 +0800</pubDate>
       
       <guid>https://asepsiswu.github.io/2019/10/02/hugo-partial/</guid>
-      <description>** partial templates
-inject layouts/partials/.html to proper area</description>
+      <description>hugo partial 添加模板</description>
     </item>
     
     <item>

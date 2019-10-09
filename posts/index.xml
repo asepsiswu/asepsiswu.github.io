@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on BioGoTop生物狗上天</title>
+    <link>https://asepsiswu.github.io/posts/</link>
+    <description>Recent content in Posts on BioGoTop生物狗上天</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 09 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://asepsiswu.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>hugo github pages </title>
+      <link>https://asepsiswu.github.io/2019/10/09/hugo-github-pages/</link>
+      <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://asepsiswu.github.io/2019/10/09/hugo-github-pages/</guid>
+      <description>设置public文件夹git推送</description>
+    </item>
+    
+    <item>
+      <title>hugo section title plural</title>
+      <link>https://asepsiswu.github.io/2019/10/09/hugo-section-title-plural/</link>
+      <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://asepsiswu.github.io/2019/10/09/hugo-section-title-plural/</guid>
+      <description>section 为非plural, config.toml设置 pluralizelisttitles</description>
+    </item>
+    
+    <item>
+      <title>hugo summary 优化</title>
+      <link>https://asepsiswu.github.io/2019/10/09/hugo-summary-%E4%BC%98%E5%8C%96/</link>
+      <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://asepsiswu.github.io/2019/10/09/hugo-summary-%E4%BC%98%E5%8C%96/</guid>
+      <description>list 页显示漂亮的summary</description>
+    </item>
+    
+    <item>
+      <title>hugo vim snippet</title>
+      <link>https://asepsiswu.github.io/2019/10/09/hugo-vim-snippet/</link>
+      <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://asepsiswu.github.io/2019/10/09/hugo-vim-snippet/</guid>
+      <description>vim 写hugo，ultisnips补全</description>
+    </item>
+    
+    <item>
+      <title>Hugo partial</title>
+      <link>https://asepsiswu.github.io/2019/10/02/hugo-partial/</link>
+      <pubDate>Wed, 02 Oct 2019 10:07:04 +0800</pubDate>
+      
+      <guid>https://asepsiswu.github.io/2019/10/02/hugo-partial/</guid>
+      <description>hugo partial 添加模板</description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://asepsiswu.github.io/2019/10/02/hugo/</link>
+      <pubDate>Wed, 02 Oct 2019 00:00:00 +0800</pubDate>
+      
+      <guid>https://asepsiswu.github.io/2019/10/02/hugo/</guid>
+      <description>hugo permalinks contentSubdir = &amp;ldquo;/:year/:month/:day/:slug&amp;rdquo; 能否程序化，省得每个文件夹都要copy and modify</description>
+    </item>
+    
+  </channel>
+</rss>
