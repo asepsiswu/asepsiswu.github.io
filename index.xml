@@ -12,6 +12,24 @@
     
     
     <item>
+      <title>hugo github pages </title>
+      <link>https://asepsiswu.github.io/2019/10/09/hugo-github-pages/</link>
+      <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://asepsiswu.github.io/2019/10/09/hugo-github-pages/</guid>
+      <description>设置public文件夹git推送</description>
+    </item>
+    
+    <item>
+      <title>hugo section title plural</title>
+      <link>https://asepsiswu.github.io/2019/10/09/hugo-section-title-plural/</link>
+      <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://asepsiswu.github.io/2019/10/09/hugo-section-title-plural/</guid>
+      <description>section 为非plural, config.toml设置 pluralizelisttitles</description>
+    </item>
+    
+    <item>
       <title>hugo summary 优化</title>
       <link>https://asepsiswu.github.io/2019/10/09/hugo-summary-%E4%BC%98%E5%8C%96/</link>
       <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
@@ -30,6 +48,15 @@
     </item>
     
     <item>
+      <title>ycmd complete with dict </title>
+      <link>https://asepsiswu.github.io/2019/10/09/ycmd-complete-with-dict/</link>
+      <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://asepsiswu.github.io/2019/10/09/ycmd-complete-with-dict/</guid>
+      <description>youcompleteme 自动补全源添加字典</description>
+    </item>
+    
+    <item>
       <title>system timeset</title>
       <link>https://asepsiswu.github.io/2019/10/08/system-timeset/</link>
       <pubDate>Tue, 08 Oct 2019 11:33:11 +0800</pubDate>
@@ -44,8 +71,7 @@
       <pubDate>Wed, 02 Oct 2019 10:07:04 +0800</pubDate>
       
       <guid>https://asepsiswu.github.io/2019/10/02/hugo-partial/</guid>
-      <description>** partial templates
-inject layouts/partials/.html to proper area</description>
+      <description>hugo partial 添加模板</description>
     </item>
     
     <item>
@@ -117,15 +143,6 @@ Hugo makes use of a variety of open source projects including:
 Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
 Websites built with Hugo are extremelly fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
 Learn more and contribute on GitHub.</description>
-    </item>
-    
-    <item>
-      <title>hugo section title plural</title>
-      <link>https://asepsiswu.github.io/1/01/01/hugo-section-title-plural/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://asepsiswu.github.io/1/01/01/hugo-section-title-plural/</guid>
-      <description>section 为非plural, config.toml设置 pluralizelisttitles</description>
     </item>
     
   </channel>

@@ -28,6 +28,16 @@
   </url>
   
   <url>
+    <loc>https://asepsiswu.github.io/2019/10/09/hugo-github-pages/</loc>
+    <lastmod>2019-10-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://asepsiswu.github.io/2019/10/09/hugo-section-title-plural/</loc>
+    <lastmod>2019-10-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://asepsiswu.github.io/2019/10/09/hugo-summary-%E4%BC%98%E5%8C%96/</loc>
     <lastmod>2019-10-09T00:00:00+00:00</lastmod>
   </url>
@@ -69,6 +79,16 @@
   
   <url>
     <loc>https://asepsiswu.github.io/categories/writing/</loc>
+    <lastmod>2019-10-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://asepsiswu.github.io/tags/ycmd/</loc>
+    <lastmod>2019-10-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://asepsiswu.github.io/2019/10/09/ycmd-complete-with-dict/</loc>
     <lastmod>2019-10-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -195,10 +215,6 @@
   <url>
     <loc>https://asepsiswu.github.io/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://asepsiswu.github.io/1/01/01/hugo-section-title-plural/</loc>
   </url>
   
 </urlset>

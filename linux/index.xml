@@ -35,8 +35,7 @@
       <pubDate>Wed, 02 Oct 2019 10:07:04 +0800</pubDate>
       
       <guid>https://asepsiswu.github.io/2019/10/02/hugo-partial/</guid>
-      <description>** partial templates
-inject layouts/partials/.html to proper area</description>
+      <description>hugo partial 添加模板</description>
     </item>
     
     <item>

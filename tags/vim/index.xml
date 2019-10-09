@@ -20,5 +20,14 @@
       <description>编写ultisnip的</description>
     </item>
     
+    <item>
+      <title>ycmd complete with dict </title>
+      <link>https://asepsiswu.github.io/2019/10/09/ycmd-complete-with-dict/</link>
+      <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://asepsiswu.github.io/2019/10/09/ycmd-complete-with-dict/</guid>
+      <description>youcompleteme 自动补全源添加字典</description>
+    </item>
+    
   </channel>
 </rss>
