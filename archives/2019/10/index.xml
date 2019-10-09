@@ -39,6 +39,15 @@
     </item>
     
     <item>
+      <title>hugo vim snippet</title>
+      <link>https://asepsiswu.github.io/2019/10/09/hugo-vim-snippet/</link>
+      <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://asepsiswu.github.io/2019/10/09/hugo-vim-snippet/</guid>
+      <description>vim 写hugo，ultisnips补全</description>
+    </item>
+    
+    <item>
       <title>ultisnip writing</title>
       <link>https://asepsiswu.github.io/2019/10/09/ultisnip-writing/</link>
       <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
