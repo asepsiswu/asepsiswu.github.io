@@ -20,5 +20,14 @@
       <description>双系统win10和manjaro时间不一致</description>
     </item>
     
+    <item>
+      <title>Git2</title>
+      <link>https://asepsiswu.github.io/2019/10/03/git2/</link>
+      <pubDate>Thu, 03 Oct 2019 11:27:45 +0800</pubDate>
+      
+      <guid>https://asepsiswu.github.io/2019/10/03/git2/</guid>
+      <description>git命令备忘</description>
+    </item>
+    
   </channel>
 </rss>

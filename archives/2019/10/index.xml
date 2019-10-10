@@ -6,10 +6,28 @@
     <description>Recent content in 2019/10 on BioGoTop生物狗上天</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://asepsiswu.github.io/archives/2019/10/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>neovim youcompleteme core git install</title>
+      <link>https://asepsiswu.github.io/2019/10/10/neovim-youcompleteme-core-git-install/</link>
+      <pubDate>Thu, 10 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://asepsiswu.github.io/2019/10/10/neovim-youcompleteme-core-git-install/</guid>
+      <description>ycmd降级安装</description>
+    </item>
+    
+    <item>
+      <title>r packages install</title>
+      <link>https://asepsiswu.github.io/2019/10/10/r-packages-install/</link>
+      <pubDate>Thu, 10 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://asepsiswu.github.io/2019/10/10/r-packages-install/</guid>
+      <description>R 包安装</description>
+    </item>
     
     <item>
       <title>hugo github pages </title>
@@ -48,6 +66,15 @@
     </item>
     
     <item>
+      <title>rstudio config</title>
+      <link>https://asepsiswu.github.io/2019/10/09/rstudio-config/</link>
+      <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://asepsiswu.github.io/2019/10/09/rstudio-config/</guid>
+      <description>Rstudio的简单配置</description>
+    </item>
+    
+    <item>
       <title>ultisnip writing</title>
       <link>https://asepsiswu.github.io/2019/10/09/ultisnip-writing/</link>
       <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
@@ -72,6 +99,24 @@
       
       <guid>https://asepsiswu.github.io/2019/10/08/system-timeset/</guid>
       <description>双系统win10和manjaro时间不一致</description>
+    </item>
+    
+    <item>
+      <title>Git2</title>
+      <link>https://asepsiswu.github.io/2019/10/03/git2/</link>
+      <pubDate>Thu, 03 Oct 2019 11:27:45 +0800</pubDate>
+      
+      <guid>https://asepsiswu.github.io/2019/10/03/git2/</guid>
+      <description>git命令备忘</description>
+    </item>
+    
+    <item>
+      <title>Office2010</title>
+      <link>https://asepsiswu.github.io/2019/10/02/office2010/</link>
+      <pubDate>Wed, 02 Oct 2019 23:58:42 +0800</pubDate>
+      
+      <guid>https://asepsiswu.github.io/2019/10/02/office2010/</guid>
+      <description>Office2010 下载</description>
     </item>
     
     <item>

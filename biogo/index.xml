@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Biogo on BioGoTop生物狗上天</title>
+    <link>https://asepsiswu.github.io/biogo/</link>
+    <description>Recent content in Biogo on BioGoTop生物狗上天</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 10 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://asepsiswu.github.io/biogo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>r packages install</title>
+      <link>https://asepsiswu.github.io/2019/10/10/r-packages-install/</link>
+      <pubDate>Thu, 10 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://asepsiswu.github.io/2019/10/10/r-packages-install/</guid>
+      <description>R 包安装</description>
+    </item>
+    
+    <item>
+      <title>rstudio config</title>
+      <link>https://asepsiswu.github.io/2019/10/09/rstudio-config/</link>
+      <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://asepsiswu.github.io/2019/10/09/rstudio-config/</guid>
+      <description>Rstudio的简单配置</description>
+    </item>
+    
+  </channel>
+</rss>

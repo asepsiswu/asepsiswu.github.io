@@ -4,26 +4,81 @@
   
   <url>
     <loc>https://asepsiswu.github.io/archives/2019/10/</loc>
-    <lastmod>2019-10-09T00:00:00+00:00</lastmod>
+    <lastmod>2019-10-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://asepsiswu.github.io/archives/</loc>
-    <lastmod>2019-10-09T00:00:00+00:00</lastmod>
+    <lastmod>2019-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://asepsiswu.github.io/biogo/</loc>
+    <lastmod>2019-10-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://asepsiswu.github.io/</loc>
-    <lastmod>2019-10-09T00:00:00+00:00</lastmod>
+    <lastmod>2019-10-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://asepsiswu.github.io/categories/</loc>
-    <lastmod>2019-10-09T00:00:00+00:00</lastmod>
+    <lastmod>2019-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://asepsiswu.github.io/linux/</loc>
+    <lastmod>2019-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://asepsiswu.github.io/2019/10/10/neovim-youcompleteme-core-git-install/</loc>
+    <lastmod>2019-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://asepsiswu.github.io/categories/r/</loc>
+    <lastmod>2019-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://asepsiswu.github.io/2019/10/10/r-packages-install/</loc>
+    <lastmod>2019-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://asepsiswu.github.io/tags/rstudio/</loc>
+    <lastmod>2019-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://asepsiswu.github.io/tags/</loc>
+    <lastmod>2019-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://asepsiswu.github.io/tags/vim/</loc>
+    <lastmod>2019-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://asepsiswu.github.io/categories/writing/</loc>
+    <lastmod>2019-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://asepsiswu.github.io/tags/ycmd/</loc>
+    <lastmod>2019-10-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://asepsiswu.github.io/tags/hugo/</loc>
+    <lastmod>2019-10-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://asepsiswu.github.io/categories/hugo/</loc>
     <lastmod>2019-10-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -48,17 +103,12 @@
   </url>
   
   <url>
-    <loc>https://asepsiswu.github.io/linux/</loc>
-    <lastmod>2019-10-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://asepsiswu.github.io/posts/</loc>
     <lastmod>2019-10-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://asepsiswu.github.io/tags/</loc>
+    <loc>https://asepsiswu.github.io/2019/10/09/rstudio-config/</loc>
     <lastmod>2019-10-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -69,26 +119,6 @@
   
   <url>
     <loc>https://asepsiswu.github.io/2019/10/09/ultisnip-writing/</loc>
-    <lastmod>2019-10-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://asepsiswu.github.io/tags/vim/</loc>
-    <lastmod>2019-10-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://asepsiswu.github.io/categories/web/</loc>
-    <lastmod>2019-10-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://asepsiswu.github.io/categories/writing/</loc>
-    <lastmod>2019-10-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://asepsiswu.github.io/tags/ycmd/</loc>
     <lastmod>2019-10-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -113,6 +143,41 @@
   </url>
   
   <url>
+    <loc>https://asepsiswu.github.io/tags/git/</loc>
+    <lastmod>2019-10-03T11:27:45+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://asepsiswu.github.io/2019/10/03/git2/</loc>
+    <lastmod>2019-10-03T11:27:45+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://asepsiswu.github.io/tags/crack/</loc>
+    <lastmod>2019-10-02T23:58:42+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://asepsiswu.github.io/tags/office/</loc>
+    <lastmod>2019-10-02T23:58:42+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://asepsiswu.github.io/2019/10/02/office2010/</loc>
+    <lastmod>2019-10-02T23:58:42+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://asepsiswu.github.io/tags/windows/</loc>
+    <lastmod>2019-10-02T23:58:42+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://asepsiswu.github.io/categories/windows/</loc>
+    <lastmod>2019-10-02T23:58:42+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://asepsiswu.github.io/2019/10/02/hugo-partial/</loc>
     <lastmod>2019-10-02T10:07:04+08:00</lastmod>
   </url>
@@ -134,11 +199,6 @@
   
   <url>
     <loc>https://asepsiswu.github.io/2019/10/02/hugo/</loc>
-    <lastmod>2019-10-02T00:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://asepsiswu.github.io/categories/hugo/</loc>
     <lastmod>2019-10-02T00:00:00+08:00</lastmod>
   </url>
   
@@ -183,12 +243,12 @@
   </url>
   
   <url>
-    <loc>https://asepsiswu.github.io/tags/themes/</loc>
+    <loc>https://asepsiswu.github.io/categories/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://asepsiswu.github.io/categories/themes/</loc>
+    <loc>https://asepsiswu.github.io/tags/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   

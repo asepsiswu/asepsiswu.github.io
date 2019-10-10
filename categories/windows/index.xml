@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>windows on BioGoTop生物狗上天</title>
+    <link>https://asepsiswu.github.io/categories/windows/</link>
+    <description>Recent content in windows on BioGoTop生物狗上天</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 02 Oct 2019 23:58:42 +0800</lastBuildDate>
+    
+	<atom:link href="https://asepsiswu.github.io/categories/windows/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Office2010</title>
+      <link>https://asepsiswu.github.io/2019/10/02/office2010/</link>
+      <pubDate>Wed, 02 Oct 2019 23:58:42 +0800</pubDate>
+      
+      <guid>https://asepsiswu.github.io/2019/10/02/office2010/</guid>
+      <description>Office2010 下载</description>
+    </item>
+    
+  </channel>
+</rss>

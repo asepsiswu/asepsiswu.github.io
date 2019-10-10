@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
+    <title>r packages install - BioGoTop生物狗上天</title>
+
+    <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel='stylesheet' href='https://asepsiswu.github.io/css/style.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='https://asepsiswu.github.io/css/custom.css' type='text/css' media='all' />
+        
+</head>
+    <body class="two-column">
+        
+<div class="wrapper">
+    <header role="banner" class="banner widgets columns-1">
+        <a href="/" rel="home">
+            <h1 class="site">BioGoTop生物狗上天</h1>
+            <p></p>
+        </a>
+        <nav role="navigation" aria-label="Primary Navigation">
+
+            <ul class="menu">
+                <li class="menu-item "><a class="menu__link" href="/biogo/">BIOGO</a></li>
+                <li class="menu-item "><a class="menu__link" href="/linux/">LINUX</a></li>
+                <li class="menu-item "><a class="menu__link" href="/posts/">POSTS</a></li>
+                <li class="menu-item "><a class="menu__link" href="/about/">ABOUT</a></li>
+            </ul>
+            <select onChange="location.href=value;">
+                <option value="/biogo/" class="menu-item menu-item-type-custom menu-item-object-custom" >BIOGO</option>
+                <option value="/linux/" class="menu-item menu-item-type-custom menu-item-object-custom" >LINUX</option>
+                <option value="/posts/" class="menu-item menu-item-type-custom menu-item-object-custom" >POSTS</option>
+                <option value="/about/" class="menu-item menu-item-type-custom menu-item-object-custom" >ABOUT</option>
+            </select>
+        </nav>
+    </header>
+
+    <br>
+    <div style="width: 100%; max-height: 100px; text-align: center;">
+       
+</div>
+
+    <div class="breadcrumbs">
+        
+    </div>
+
+        <div id="content" class="content">
+
+<main role="main">
+    <article role="article" class="post type-post format-standard hentry">
+        <header class="post-header">
+            <h1>r packages install</h1>
+            <div class="post-details">
+                <a rel="bookmark">
+                    <time datetime="2019-10-10T1010:120:06">2019-10-10</time>
+                </a>
+				
+<span style="float: right;">
+    <div id="fb-root" style="height: 100%;"></div>
+    
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
+    
+    <div class="fb-share-button" data-href="https://asepsiswu.github.io/2019/10/10/r-packages-install/" data-layout="button_count" data-size="small">
+        <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fasepsiswu.github.io%2f2019%2f10%2f10%2fr-packages-install%2f" class="fb-xfbml-parse-ignore">Share</a>
+    </div>
+    &nbsp;
+    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="r packages install" data-url="https://asepsiswu.github.io/2019/10/10/r-packages-install/" data-show-count="false">Tweet</a>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    &nbsp;
+    
+</span>
+
+            </div>
+        </header>
+
+        <div class="post-content">
+            
+
+<h1 id="r-包安装">R 包安装</h1>
+
+<h2 id="cran和bioc安装源配置">CRAN和Bioc安装源配置</h2>
+
+<p>清华或中科大</p>
+
+<pre><code>镜像源配置文件之一是 .Rprofile (linux 下位于 ~/.Rprofile )。
+
+在文末添加如下语句:
+
+options(&quot;repos&quot; = c(CRAN=&quot;https://mirrors.tuna.tsinghua.edu.cn/CRAN/&quot;))
+options(BioC_mirror=&quot;https://mirrors.tuna.tsinghua.edu.cn/bioconductor&quot;)
+或
+options(BioC_mirror=&quot;https://mirrors.ustc.edu.cn/bioc/&quot;)
+options(&quot;repos&quot; = c(CRAN='https://mirrors.ustc.edu.cn/CRAN/'))
+
+</code></pre>
+
+<h2 id="安装小技巧">安装小技巧</h2>
+
+<pre><code>设置destdir使得避免安装失败,可手工安装
+install.packages(pks, destdir=&quot;~/Downloads/&quot;)
+</code></pre>
+
+<h2 id="update-package">update package</h2>
+
+<pre><code>pks = old.packages()[,1]
+lapply(old.packages()[,1], install.packages)
+</code></pre>
+
+<h2 id="install-package的替代">install.package的替代</h2>
+
+<pre><code>BiocManager::install(pkg)
+</code></pre>
+
+<h2 id="linux系统依赖的库">linux系统依赖的库</h2>
+
+<pre><code>make: gfortran: Command not found
+sudo pacman -S gcc-fortran
+
+*** Install PROJ.4 and if necessary set PKG_CPPFLAGS/PKG_LIBS accordingly.
+ERROR: configuration failed for package ‘proj4’
+sudo pacman -S proj
+
+configure: error: gdal-config not found or not executable.
+sudo pacman -S gdal
+
+Configuration failed because libudunits2.so was not found. 
+yay -S udunits
+</code></pre>
+
+        </div>
+
+        <footer class="post-footer">
+            
+            <span class="post-categories">
+                
+                <a href="https://asepsiswu.github.io/categories/r" rel="tag">R</a>
+                
+            </span>
+            
+
+            
+            <span class="post-tags">
+                
+                <a href="https://asepsiswu.github.io/tags/rstudio" rel="tag">Rstudio</a>&emsp;
+                
+            </span>
+            
+        </footer>
+        
+<table cellspacing="15" style="width:100%; border: none;">
+    <tr>
+        <td style="text-align: center; border: none; padding: 0px;">
+        </td>
+        <td style="text-align: center; border: none; padding: 0px;">
+        </td>
+    </tr>
+</table>
+
+        
+    </article>
+
+    
+
+</main>
+
+
+        <div class="sidebar1 widgets columns-1">
+
+    <aside>
+    
+</aside>
+    <aside class="widget widget_categories">
+        <h2>Categories</h2>
+        <ul class="widget__list"><li class="cat-item cat-item-2">
+                <a href="/categories/download">Download (1)</a>
+            </li><li class="cat-item cat-item-2">
+                <a href="/categories/hugo">hugo (5)</a>
+            </li><li class="cat-item cat-item-2">
+                <a href="/categories/linux">linux (2)</a>
+            </li><li class="cat-item cat-item-2">
+                <a href="/categories/r">R (2)</a>
+            </li><li class="cat-item cat-item-2">
+                <a href="/categories/syntax">syntax (1)</a>
+            </li><li class="cat-item cat-item-2">
+                <a href="/categories/themes">themes (1)</a>
+            </li><li class="cat-item cat-item-2">
+                <a href="/categories/windows">windows (1)</a>
+            </li><li class="cat-item cat-item-2">
+                <a href="/categories/writing">writing (4)</a>
+            </li>
+        </ul>
+    </aside>
+
+    <aside class="widget widget_tag_cloud">
+        <h2>Tags</h2>
+        <div class="tagcloud"><a class="tag-cloud-link" href="/tags/baidu" title="baidu" style="font-size: 12pt;">baidu</a>&emsp;<a class="tag-cloud-link" href="/tags/crack" title="crack" style="font-size: 12pt;">crack</a>&emsp;<a class="tag-cloud-link" href="/tags/css" title="css" style="font-size: 12pt;">css</a>&emsp;<a class="tag-cloud-link" href="/tags/emoji" title="emoji" style="font-size: 12pt;">emoji</a>&emsp;<a class="tag-cloud-link" href="/tags/git" title="git" style="font-size: 12pt;">git</a>&emsp;<a class="tag-cloud-link" href="/tags/html" title="html" style="font-size: 12pt;">html</a>&emsp;<a class="tag-cloud-link" href="/tags/hugo" title="hugo" style="font-size: 12pt;">hugo</a>&emsp;<a class="tag-cloud-link" href="/tags/manjaro" title="manjaro" style="font-size: 12pt;">manjaro</a>&emsp;<a class="tag-cloud-link" href="/tags/markdown" title="markdown" style="font-size: 12pt;">markdown</a>&emsp;<a class="tag-cloud-link" href="/tags/office" title="office" style="font-size: 12pt;">office</a>&emsp;<a class="tag-cloud-link" href="/tags/rstudio" title="rstudio" style="font-size: 12pt;">Rstudio</a>&emsp;<a class="tag-cloud-link" href="/tags/text" title="text" style="font-size: 12pt;">text</a>&emsp;<a class="tag-cloud-link" href="/tags/themes" title="themes" style="font-size: 12pt;">themes</a>&emsp;<a class="tag-cloud-link" href="/tags/ultisnip" title="ultisnip" style="font-size: 12pt;">ultisnip</a>&emsp;<a class="tag-cloud-link" href="/tags/vim" title="vim" style="font-size: 12pt;">vim</a>&emsp;<a class="tag-cloud-link" href="/tags/website" title="website" style="font-size: 12pt;">website</a>&emsp;<a class="tag-cloud-link" href="/tags/windows" title="windows" style="font-size: 12pt;">windows</a>&emsp;<a class="tag-cloud-link" href="/tags/ycmd" title="ycmd" style="font-size: 12pt;">ycmd</a>&emsp;
+        </div>
+    </aside>
+
+    <aside class="widget widget_recent_entries">
+        <h2>Recent Posts</h2>
+        <ul>
+            <li>
+                <a href="/2019/10/10/neovim-youcompleteme-core-git-install/">neovim youcompleteme core git install</a>
+            </li>
+            <li>
+                <a href="/2019/10/10/r-packages-install/">r packages install</a>
+            </li>
+            <li>
+                <a href="/2019/10/09/hugo-github-pages/">hugo github pages </a>
+            </li>
+            <li>
+                <a href="/2019/10/09/hugo-section-title-plural/">hugo section title plural</a>
+            </li>
+            <li>
+                <a href="/2019/10/09/hugo-summary-%E4%BC%98%E5%8C%96/">hugo summary 优化</a>
+            </li>
+            <li>
+                <a href="/2019/10/09/hugo-vim-snippet/">hugo vim snippet</a>
+            </li>
+            <li>
+                <a href="/2019/10/09/rstudio-config/">rstudio config</a>
+            </li>
+            <li>
+                <a href="/2019/10/09/ultisnip-writing/">ultisnip writing</a>
+            </li>
+            <li>
+                <a href="/2019/10/09/ycmd-complete-with-dict/">ycmd complete with dict </a>
+            </li>
+            <li>
+                <a href="/2019/10/08/system-timeset/">system timeset</a>
+            </li>
+        </ul>
+    </aside>
+
+    <aside class="widget widget_archive">
+        <h2>Archives</h2>
+        <ul><li><a href="/archives/2019/03">2019/03 (3)</a></li><li><a href="/archives/2019/10">2019/10 (15)</a></li>
+        </ul>
+    </aside>
+
+</div>
+        </div>
+        </div>
+<footer role="contentinfo" class="document-footer contentinfo widgets columns-1">
+
+    <aside class="widget widget_text">
+        <div class="textwidget">
+            <p>© BioGoTop生物狗上天 / Powered by <a href="https://gohugo.io" target="_blank">Hugo</a> with theme <a href="https://github.com/tosi29/inkblotty" target="_blank">Inkblotty</a></p>
+        </div>
+    </aside>
+</footer>
+</div>
+
+    </body>
+</html>
