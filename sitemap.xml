@@ -13,6 +13,16 @@
   </url>
   
   <url>
+    <loc>https://asepsiswu.github.io/tags/bdcloud/</loc>
+    <lastmod>2019-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://asepsiswu.github.io/2019/10/11/bdcloud-nginx/</loc>
+    <lastmod>2019-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://asepsiswu.github.io/</loc>
     <lastmod>2019-10-11T00:00:00+00:00</lastmod>
   </url>
@@ -33,12 +43,27 @@
   </url>
   
   <url>
+    <loc>https://asepsiswu.github.io/tags/nginx/</loc>
+    <lastmod>2019-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://asepsiswu.github.io/posts/</loc>
+    <lastmod>2019-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://asepsiswu.github.io/tags/</loc>
     <lastmod>2019-10-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://asepsiswu.github.io/categories/tips/</loc>
+    <lastmod>2019-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://asepsiswu.github.io/categories/web/</loc>
     <lastmod>2019-10-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -103,11 +128,6 @@
   </url>
   
   <url>
-    <loc>https://asepsiswu.github.io/categories/hugo/</loc>
-    <lastmod>2019-10-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://asepsiswu.github.io/tags/hugo/</loc>
     <lastmod>2019-10-09T00:00:00+00:00</lastmod>
   </url>
@@ -129,11 +149,6 @@
   
   <url>
     <loc>https://asepsiswu.github.io/2019/10/09/hugo-vim-snippet/</loc>
-    <lastmod>2019-10-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://asepsiswu.github.io/posts/</loc>
     <lastmod>2019-10-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -198,12 +213,12 @@
   </url>
   
   <url>
-    <loc>https://asepsiswu.github.io/categories/windows/</loc>
+    <loc>https://asepsiswu.github.io/tags/windows/</loc>
     <lastmod>2019-10-02T23:58:42+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://asepsiswu.github.io/tags/windows/</loc>
+    <loc>https://asepsiswu.github.io/categories/windows/</loc>
     <lastmod>2019-10-02T23:58:42+08:00</lastmod>
   </url>
   
@@ -229,11 +244,6 @@
   
   <url>
     <loc>https://asepsiswu.github.io/2019/10/02/hugo/</loc>
-    <lastmod>2019-10-02T00:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://asepsiswu.github.io/tags/website/</loc>
     <lastmod>2019-10-02T00:00:00+08:00</lastmod>
   </url>
   

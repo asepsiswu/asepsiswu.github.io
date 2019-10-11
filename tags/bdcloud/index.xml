@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bdcloud on BioGoTop生物狗上天</title>
+    <link>https://asepsiswu.github.io/tags/bdcloud/</link>
+    <description>Recent content in bdcloud on BioGoTop生物狗上天</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 11 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://asepsiswu.github.io/tags/bdcloud/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>bdcloud nginx</title>
+      <link>https://asepsiswu.github.io/2019/10/11/bdcloud-nginx/</link>
+      <pubDate>Fri, 11 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://asepsiswu.github.io/2019/10/11/bdcloud-nginx/</guid>
+      <description>百度云主机网站开启目录访问</description>
+    </item>
+    
+  </channel>
+</rss>

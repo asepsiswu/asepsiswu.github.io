@@ -62,7 +62,7 @@
       <pubDate>Wed, 02 Oct 2019 00:00:00 +0800</pubDate>
       
       <guid>https://asepsiswu.github.io/2019/10/02/hugo/</guid>
-      <description>hugo permalinks contentSubdir = &amp;ldquo;/:year/:month/:day/:slug&amp;rdquo; 能否程序化，省得每个文件夹都要copy and modify</description>
+      <description>hugo permalinks 设置 年/月/日访问</description>
     </item>
     
   </channel>

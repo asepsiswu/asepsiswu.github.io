@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>bdcloud nginx</title>
+      <link>https://asepsiswu.github.io/2019/10/11/bdcloud-nginx/</link>
+      <pubDate>Fri, 11 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://asepsiswu.github.io/2019/10/11/bdcloud-nginx/</guid>
+      <description>百度云主机网站开启目录访问</description>
+    </item>
+    
+    <item>
       <title>xdotool move</title>
       <link>https://asepsiswu.github.io/2019/10/11/xdotool-move/</link>
       <pubDate>Fri, 11 Oct 2019 00:00:00 +0000</pubDate>
@@ -161,7 +170,7 @@
       <pubDate>Wed, 02 Oct 2019 00:00:00 +0800</pubDate>
       
       <guid>https://asepsiswu.github.io/2019/10/02/hugo/</guid>
-      <description>hugo permalinks contentSubdir = &amp;ldquo;/:year/:month/:day/:slug&amp;rdquo; 能否程序化，省得每个文件夹都要copy and modify</description>
+      <description>hugo permalinks 设置 年/月/日访问</description>
     </item>
     
     <item>
