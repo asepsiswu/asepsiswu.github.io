@@ -4,12 +4,47 @@
   
   <url>
     <loc>https://asepsiswu.github.io/archives/2019/10/</loc>
-    <lastmod>2019-10-10T00:00:00+00:00</lastmod>
+    <lastmod>2019-10-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://asepsiswu.github.io/archives/</loc>
-    <lastmod>2019-10-10T00:00:00+00:00</lastmod>
+    <lastmod>2019-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://asepsiswu.github.io/</loc>
+    <lastmod>2019-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://asepsiswu.github.io/categories/</loc>
+    <lastmod>2019-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://asepsiswu.github.io/tags/keybind/</loc>
+    <lastmod>2019-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://asepsiswu.github.io/linux/</loc>
+    <lastmod>2019-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://asepsiswu.github.io/tags/</loc>
+    <lastmod>2019-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://asepsiswu.github.io/categories/tips/</loc>
+    <lastmod>2019-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://asepsiswu.github.io/2019/10/11/xdotool-move/</loc>
+    <lastmod>2019-10-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -18,22 +53,17 @@
   </url>
   
   <url>
-    <loc>https://asepsiswu.github.io/</loc>
-    <lastmod>2019-10-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://asepsiswu.github.io/categories/</loc>
-    <lastmod>2019-10-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://asepsiswu.github.io/linux/</loc>
-    <lastmod>2019-10-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://asepsiswu.github.io/2019/10/10/neovim-youcompleteme-core-git-install/</loc>
+    <lastmod>2019-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://asepsiswu.github.io/tags/pacman/</loc>
+    <lastmod>2019-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://asepsiswu.github.io/2019/10/10/pacman-command/</loc>
     <lastmod>2019-10-10T00:00:00+00:00</lastmod>
   </url>
   
@@ -53,7 +83,7 @@
   </url>
   
   <url>
-    <loc>https://asepsiswu.github.io/tags/</loc>
+    <loc>https://asepsiswu.github.io/categories/system/</loc>
     <lastmod>2019-10-10T00:00:00+00:00</lastmod>
   </url>
   
@@ -73,12 +103,12 @@
   </url>
   
   <url>
-    <loc>https://asepsiswu.github.io/tags/hugo/</loc>
+    <loc>https://asepsiswu.github.io/categories/hugo/</loc>
     <lastmod>2019-10-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://asepsiswu.github.io/categories/hugo/</loc>
+    <loc>https://asepsiswu.github.io/tags/hugo/</loc>
     <lastmod>2019-10-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -243,12 +273,12 @@
   </url>
   
   <url>
-    <loc>https://asepsiswu.github.io/categories/themes/</loc>
+    <loc>https://asepsiswu.github.io/tags/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://asepsiswu.github.io/tags/themes/</loc>
+    <loc>https://asepsiswu.github.io/categories/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
