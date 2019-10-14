@@ -3,7 +3,7 @@
     <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
-    <title>manjaro - BioGoTop生物狗上天</title>
+    <title>hugo with r markdown - BioGoTop生物狗上天</title>
 
     <style type="text/css">
         img.wp-smiley,
@@ -61,61 +61,84 @@
         
     </div>
         <div id="content" class="content">
-<main aria-role="main">
-  <header class="homepage-header">
-    <h1>manjaro</h1>
+
+<main role="main">
+    <article role="article" class="post type-post format-standard hentry">
+        <header class="post-header">
+            <h1>hugo with r markdown</h1>
+            <div class="post-details">
+                <a rel="bookmark">
+                    <time datetime="2019-10-14T1014:120:06">2019-10-14</time>
+                </a>
+				
+<span style="float: right;">
+    <div id="fb-root" style="height: 100%;"></div>
     
-  </header>
-  <div class="homepage-content">
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
     
+    <div class="fb-share-button" data-href="https://asepsiswu.github.io/2019/10/14/hugo-with-r-markdown/" data-layout="button_count" data-size="small">
+        <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fasepsiswu.github.io%2f2019%2f10%2f14%2fhugo-with-r-markdown%2f" class="fb-xfbml-parse-ignore">Share</a>
+    </div>
+    &nbsp;
+    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="hugo with r markdown" data-url="https://asepsiswu.github.io/2019/10/14/hugo-with-r-markdown/" data-show-count="false">Tweet</a>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    &nbsp;
     
-  </div>
-  <div>
-    
-    
-        <article class="list__item post clearfix">
-	<div class="list__content clearfix">
-		<header class="post-header">
-				<h2><a href="/2019/10/08/system-timeset/" rel="bookmark">system timeset</a></h2>
-				<div class="post-details">
-				<a rel="bookmark">
-					<time datetime="2019-10-08T11:33:11">2019-10-08</time>
-				</a>
-				</div>
-		</header>
+</span>
 
-		<div class="post-excerpt"><p>
-                        
-                            双系统win10和manjaro时间不一致
-                        
-		</p></div>
-	</div>
-	
-	<footer class="post-footer">
-			
-		<span class="post-categories">
-			
-			<a href="https://asepsiswu.github.io/categories/linux" rel="tag">linux</a>
-			
-		</span>
-		
+            </div>
+        </header>
 
-		
-		<span class="post-tags">
-			
-			<a href="https://asepsiswu.github.io/tags/manjaro" rel="tag">manjaro</a>
-			
-		</span>
-		
-	</footer>
+        <div class="post-content">
+            
 
-</article>
+<h1 id="rmardown-to-hugo-markdown">Rmardown to hugo markdown</h1>
 
-    
-  </div>
+<ol>
+<li><p>通过R的<code>knitr::knit</code> 转化Rmd 为md文件</p>
 
+<p>可以通过R的addins插件实现<a href="https://biogo.top/2019/10/14/rstudio-addins/">一键转换</a>，免去输入文件名</p></li>
 
+<li><p>打开生成的md文件，更新图片的路径</p>
 
+<p>将生成的图片复制到static文件夹下面，更新图片的链接。</p>
+
+<p>如图片复制到static/figure/R/目录下
+<code>![A fancy pie chart.](figure/pie-1.png)</code> 更改为
+<code>![A fancy pie chart.](/figure/R/pie-1.png)</code></p>
+
+<p>注意： /figured的实际路径为/static/figure,需要在hugo的config.toml添加</p>
+
+<pre><code>staticDir = [&quot;static&quot;, &quot;figure&quot;]
+</code></pre></li>
+</ol>
+
+        </div>
+
+        <footer class="post-footer">
+            
+            <span class="post-categories">
+                
+                <a href="https://asepsiswu.github.io/categories/r" rel="tag">R</a>
+                
+                <a href="https://asepsiswu.github.io/categories/web" rel="tag">web</a>
+                
+            </span>
+            
+
+            
+            <span class="post-tags">
+                
+                <a href="https://asepsiswu.github.io/tags/hugo" rel="tag">hugo</a>&emsp;
+                
+                <a href="https://asepsiswu.github.io/tags/rstudio" rel="tag">rstudio</a>&emsp;
+                
+                <a href="https://asepsiswu.github.io/tags/markdown" rel="tag">markdown</a>&emsp;
+                
+            </span>
+            
+        </footer>
+        
 <table cellspacing="15" style="width:100%; border: none;">
     <tr>
         <td style="text-align: center; border: none; padding: 0px;">
@@ -124,6 +147,11 @@
         </td>
     </tr>
 </table>
+
+        
+    </article>
+
+    
 
 </main>
 

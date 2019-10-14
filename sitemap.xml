@@ -4,12 +4,67 @@
   
   <url>
     <loc>https://asepsiswu.github.io/archives/2019/10/</loc>
-    <lastmod>2019-10-11T00:00:00+00:00</lastmod>
+    <lastmod>2019-10-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://asepsiswu.github.io/archives/</loc>
-    <lastmod>2019-10-11T00:00:00+00:00</lastmod>
+    <lastmod>2019-10-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://asepsiswu.github.io/biogo/</loc>
+    <lastmod>2019-10-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://asepsiswu.github.io/</loc>
+    <lastmod>2019-10-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://asepsiswu.github.io/categories/</loc>
+    <lastmod>2019-10-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://asepsiswu.github.io/tags/hugo/</loc>
+    <lastmod>2019-10-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://asepsiswu.github.io/2019/10/14/hugo-with-r-markdown/</loc>
+    <lastmod>2019-10-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://asepsiswu.github.io/tags/markdown/</loc>
+    <lastmod>2019-10-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://asepsiswu.github.io/categories/r/</loc>
+    <lastmod>2019-10-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://asepsiswu.github.io/tags/rstudio/</loc>
+    <lastmod>2019-10-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://asepsiswu.github.io/2019/10/14/rstudio-addins/</loc>
+    <lastmod>2019-10-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://asepsiswu.github.io/tags/</loc>
+    <lastmod>2019-10-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://asepsiswu.github.io/categories/web/</loc>
+    <lastmod>2019-10-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -19,21 +74,6 @@
   
   <url>
     <loc>https://asepsiswu.github.io/2019/10/11/bdcloud-nginx/</loc>
-    <lastmod>2019-10-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://asepsiswu.github.io/biogo/</loc>
-    <lastmod>2019-10-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://asepsiswu.github.io/</loc>
-    <lastmod>2019-10-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://asepsiswu.github.io/categories/</loc>
     <lastmod>2019-10-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -73,17 +113,7 @@
   </url>
   
   <url>
-    <loc>https://asepsiswu.github.io/tags/</loc>
-    <lastmod>2019-10-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://asepsiswu.github.io/categories/tips/</loc>
-    <lastmod>2019-10-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://asepsiswu.github.io/categories/web/</loc>
     <lastmod>2019-10-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -108,17 +138,7 @@
   </url>
   
   <url>
-    <loc>https://asepsiswu.github.io/categories/r/</loc>
-    <lastmod>2019-10-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://asepsiswu.github.io/2019/10/10/r-packages-install/</loc>
-    <lastmod>2019-10-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://asepsiswu.github.io/tags/rstudio/</loc>
     <lastmod>2019-10-10T00:00:00+00:00</lastmod>
   </url>
   
@@ -140,11 +160,6 @@
   <url>
     <loc>https://asepsiswu.github.io/tags/ycmd/</loc>
     <lastmod>2019-10-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://asepsiswu.github.io/tags/hugo/</loc>
-    <lastmod>2019-10-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -278,11 +293,6 @@
   </url>
   
   <url>
-    <loc>https://asepsiswu.github.io/tags/markdown/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://asepsiswu.github.io/scraps/markdown-syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
@@ -298,12 +308,12 @@
   </url>
   
   <url>
-    <loc>https://asepsiswu.github.io/tags/themes/</loc>
+    <loc>https://asepsiswu.github.io/categories/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://asepsiswu.github.io/categories/themes/</loc>
+    <loc>https://asepsiswu.github.io/tags/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   

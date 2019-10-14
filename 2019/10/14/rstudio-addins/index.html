@@ -3,7 +3,7 @@
     <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
-    <title>manjaro - BioGoTop生物狗上天</title>
+    <title>rstudio addins - BioGoTop生物狗上天</title>
 
     <style type="text/css">
         img.wp-smiley,
@@ -61,61 +61,93 @@
         
     </div>
         <div id="content" class="content">
-<main aria-role="main">
-  <header class="homepage-header">
-    <h1>manjaro</h1>
+
+<main role="main">
+    <article role="article" class="post type-post format-standard hentry">
+        <header class="post-header">
+            <h1>rstudio addins</h1>
+            <div class="post-details">
+                <a rel="bookmark">
+                    <time datetime="2019-10-14T1014:120:06">2019-10-14</time>
+                </a>
+				
+<span style="float: right;">
+    <div id="fb-root" style="height: 100%;"></div>
     
-  </header>
-  <div class="homepage-content">
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
     
+    <div class="fb-share-button" data-href="https://asepsiswu.github.io/2019/10/14/rstudio-addins/" data-layout="button_count" data-size="small">
+        <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fasepsiswu.github.io%2f2019%2f10%2f14%2frstudio-addins%2f" class="fb-xfbml-parse-ignore">Share</a>
+    </div>
+    &nbsp;
+    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="rstudio addins" data-url="https://asepsiswu.github.io/2019/10/14/rstudio-addins/" data-show-count="false">Tweet</a>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    &nbsp;
     
-  </div>
-  <div>
-    
-    
-        <article class="list__item post clearfix">
-	<div class="list__content clearfix">
-		<header class="post-header">
-				<h2><a href="/2019/10/08/system-timeset/" rel="bookmark">system timeset</a></h2>
-				<div class="post-details">
-				<a rel="bookmark">
-					<time datetime="2019-10-08T11:33:11">2019-10-08</time>
-				</a>
-				</div>
-		</header>
+</span>
 
-		<div class="post-excerpt"><p>
-                        
-                            双系统win10和manjaro时间不一致
-                        
-		</p></div>
-	</div>
-	
-	<footer class="post-footer">
-			
-		<span class="post-categories">
-			
-			<a href="https://asepsiswu.github.io/categories/linux" rel="tag">linux</a>
-			
-		</span>
-		
+            </div>
+        </header>
 
-		
-		<span class="post-tags">
-			
-			<a href="https://asepsiswu.github.io/tags/manjaro" rel="tag">manjaro</a>
-			
-		</span>
-		
-	</footer>
+        <div class="post-content">
+            
 
-</article>
+<h1 id="rstudio-使用addins插件">Rstudio 使用addins插件</h1>
 
-    
-  </div>
+<ol>
+<li>Create an R package,</li>
+<li>Create some R functions, and</li>
+<li>Create a file at inst/rstudio/addins.dcf</li>
+</ol>
 
+<h2 id="示例">示例</h2>
 
+<ol>
+<li><p>建包
+File -&gt; New Project -&gt; New Directory -&gt; R Package -&gt; package名称Raddins -&gt; Create Package</p></li>
 
+<li><p>编写addins.dcf 内容</p>
+
+<pre><code class="language-bash">mkdir -p inst/restudio
+</code></pre>
+
+<pre><code>Name: Rmd2md
+Description: Rmd2md
+Binding: Rmd2md
+Interactive: false
+</code></pre></li>
+
+<li><p>编写addins.R</p>
+
+<pre><code class="language-r">Rmd2md &lt;- function(){
+knitr::knit(rstudioapi::getSourceEditorContext()$path)
+  
+}
+</code></pre></li>
+
+<li><p>Build -&gt; Install and Rstart</p></li>
+</ol>
+
+        </div>
+
+        <footer class="post-footer">
+            
+            <span class="post-categories">
+                
+                <a href="https://asepsiswu.github.io/categories/r" rel="tag">R</a>
+                
+            </span>
+            
+
+            
+            <span class="post-tags">
+                
+                <a href="https://asepsiswu.github.io/tags/rstudio" rel="tag">Rstudio</a>&emsp;
+                
+            </span>
+            
+        </footer>
+        
 <table cellspacing="15" style="width:100%; border: none;">
     <tr>
         <td style="text-align: center; border: none; padding: 0px;">
@@ -124,6 +156,11 @@
         </td>
     </tr>
 </table>
+
+        
+    </article>
+
+    
 
 </main>
 

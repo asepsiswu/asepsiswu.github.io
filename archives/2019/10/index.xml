@@ -6,10 +6,28 @@
     <description>Recent content in 2019/10 on BioGoTop生物狗上天</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://asepsiswu.github.io/archives/2019/10/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>hugo with r markdown</title>
+      <link>https://asepsiswu.github.io/2019/10/14/hugo-with-r-markdown/</link>
+      <pubDate>Mon, 14 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://asepsiswu.github.io/2019/10/14/hugo-with-r-markdown/</guid>
+      <description>hugo写Rmarkdown 文件</description>
+    </item>
+    
+    <item>
+      <title>rstudio addins</title>
+      <link>https://asepsiswu.github.io/2019/10/14/rstudio-addins/</link>
+      <pubDate>Mon, 14 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://asepsiswu.github.io/2019/10/14/rstudio-addins/</guid>
+      <description>rstudio 使用addins插件</description>
+    </item>
     
     <item>
       <title>bdcloud nginx</title>
