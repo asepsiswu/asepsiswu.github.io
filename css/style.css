@@ -1295,8 +1295,3 @@ nav.pagination {
 
 /*# sourceMappingURL=style.css.map */
 
-/*make class post-content link blue and underline*/
-.post-content a {
-  color: blue;
-  text-decoration: underline; 
-}

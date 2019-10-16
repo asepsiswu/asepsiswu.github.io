@@ -6,10 +6,19 @@
     <description>Recent content in Biogo on BioGoTop生物狗上天</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://asepsiswu.github.io/biogo/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>jupyter setting</title>
+      <link>https://asepsiswu.github.io/2019/10/16/jupyter-setting/</link>
+      <pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://asepsiswu.github.io/2019/10/16/jupyter-setting/</guid>
+      <description>jupyter notebook 无需密码打开</description>
+    </item>
     
     <item>
       <title>hugo with r markdown</title>

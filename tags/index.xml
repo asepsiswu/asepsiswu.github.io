@@ -6,10 +6,19 @@
     <description>Recent content in Tags on BioGoTop生物狗上天</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://asepsiswu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>jupyter</title>
+      <link>https://asepsiswu.github.io/tags/jupyter/</link>
+      <pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://asepsiswu.github.io/tags/jupyter/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>hugo</title>
@@ -30,7 +39,7 @@
     </item>
     
     <item>
-      <title>rstudio</title>
+      <title>Rstudio</title>
       <link>https://asepsiswu.github.io/tags/rstudio/</link>
       <pubDate>Mon, 14 Oct 2019 00:00:00 +0000</pubDate>
       
