@@ -113,9 +113,3 @@ iframe {
         display: none;
     }
 }
-
-/*make class post-content link blue and underline*/
-.post-content a {
-  color: blue;
-  text-decoration: underline; 
-}

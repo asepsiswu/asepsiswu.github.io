@@ -92,12 +92,19 @@
         <div class="post-content">
             
 
-<h1 id="rmardown-to-hugo-markdown">Rmardown to hugo markdown</h1>
+<h1 id="r-markdown-to-hugo-markdown">R markdown to hugo markdown</h1>
 
 <ol>
 <li><p>通过R的<code>knitr::knit</code> 转化Rmd 为md文件</p>
 
 <p>可以通过R的addins插件实现<a href="https://biogo.top/2019/10/14/rstudio-addins/">一键转换</a>，免去输入文件名</p></li>
+
+<li><p>或通过shell alias 转化rmd</p>
+
+<pre><code class="language-bash">alias knit=&quot;Rscript -e 'files = commandArgs(trailingOnly=T);sapply(files, knitr::knit)' &quot;
+# bash 
+knit xxx.rmd xx2.rmd
+</code></pre></li>
 
 <li><p>打开生成的md文件，更新图片的路径</p>
 
