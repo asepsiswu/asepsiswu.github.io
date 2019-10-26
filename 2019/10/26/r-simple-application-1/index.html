@@ -3,7 +3,7 @@
     <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
-    <title>Office2010 - BioGoTop生物狗上天</title>
+    <title>R simple application 1 - BioGoTop生物狗上天</title>
 
     <style type="text/css">
         img.wp-smiley,
@@ -65,10 +65,10 @@
 <main role="main">
     <article role="article" class="post type-post format-standard hentry">
         <header class="post-header">
-            <h1>Office2010</h1>
+            <h1>R simple application 1</h1>
             <div class="post-details">
                 <a rel="bookmark">
-                    <time datetime="2019-10-02T102:1158:426">2019-10-02</time>
+                    <time datetime="2019-10-26T1026:120:06">2019-10-26</time>
                 </a>
 				
 <span style="float: right;">
@@ -76,11 +76,11 @@
     
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
     
-    <div class="fb-share-button" data-href="https://asepsiswu.github.io/2019/10/02/office2010/" data-layout="button_count" data-size="small">
-        <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fasepsiswu.github.io%2f2019%2f10%2f02%2foffice2010%2f" class="fb-xfbml-parse-ignore">Share</a>
+    <div class="fb-share-button" data-href="https://asepsiswu.github.io/2019/10/26/r-simple-application-1/" data-layout="button_count" data-size="small">
+        <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fasepsiswu.github.io%2f2019%2f10%2f26%2fr-simple-application-1%2f" class="fb-xfbml-parse-ignore">Share</a>
     </div>
     &nbsp;
-    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="Office2010" data-url="https://asepsiswu.github.io/2019/10/02/office2010/" data-show-count="false">Tweet</a>
+    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="R simple application 1" data-url="https://asepsiswu.github.io/2019/10/26/r-simple-application-1/" data-show-count="false">Tweet</a>
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     &nbsp;
     
@@ -92,27 +92,117 @@
         <div class="post-content">
             
 
-<h2 id="office-2010-vol-chn">Office 2010 VOL chn</h2>
+<h1 id="r的简单应用之数据表单的合并和更新表">R的简单应用之数据表单的合并和更新表</h1>
 
-<p>Office Professional Plus 2010 VOL (x86)- (简体中文32位版本）</p>
+<h2 id="加载必要的r包">加载必要的R包</h2>
 
-<pre><code>ed2k://|file|SW_DVD5_Office_Professional_Plus_2010_W32_ChnSimp_MLF_X16-52528.iso|926285824|3FE784EF02E56648D0920E7D5CA5A9A3|/
-Office Professional Plus 2010 VOL (x64)- (简体中文64位版本)
+<p>require和library函数加载R包，如加载不成功安装R包后再加载</p>
 
-ed2k://|file|SW_DVD5_Office_Professional_Plus_2010_64Bit_ChnSimp_MLF_X16-52534.iso|1009090560|C0BADE6BE073CC00609E6CA16D0C62AC|/
-
-Office Professional Plus 2010 With SP1VOL (x86) – (简体中文32位含SP1更新）
-
-ed2k://|file|SW_DVD5_Office_Professional_Plus_2010w_SP1_W32_ChnSimp_CORE_MLF_X17-76734.iso|1412091904|79B75EE3F629A1BD925E6C0AEFDECA10|/
-
-Office Professional Plus 2010 With SP1VOL (x64) – (简体中文64位含SP1更新）
-
-ed2k://|file|SW_DVD5_Office_Professional_Plus_2010w_SP1_64Bit_ChnSimp_CORE_MLF_X17-76742.iso|1612515328|032320121E0EE36D8F0C32EC89CA0AB9|/
+<pre><code class="language-r">## 加载data.table包
+if (!require(data.table)) { 
+  install.package(&quot;data.table&quot;)
+  library(data.table)
+}
 </code></pre>
 
-<h2 id="激活">激活</h2>
+<pre><code>## Loading required package: data.table
+</code></pre>
 
-<p>google aact 激活</p>
+<h2 id="生成示例数据">生成示例数据</h2>
+
+<p>sample 函数用于生成随机数据。</p>
+
+<pre><code class="language-r">set.seed(10086) # 设置一个seed，令随机数据可以重复
+n1 &lt;- 10; n2 &lt;- 5
+tb1 &lt;- data.table(pid1 = sample(1:n1), day = sample(1:100, n1))
+tb2 &lt;- data.table(pid1 = sample(1:n1, n2), dayNew = sample(5:50, n2))
+tb1
+</code></pre>
+
+<pre><code>##     pid1 day
+##  1:    2  32
+##  2:   10  52
+##  3:    7  61
+##  4:    5  41
+##  5:    6  40
+##  6:    4  60
+##  7:    3  83
+##  8:    9  68
+##  9:    1   1
+## 10:    8  67
+</code></pre>
+
+<pre><code class="language-r">tb2
+</code></pre>
+
+<pre><code>##    pid1 dayNew
+## 1:    9     44
+## 2:    4     38
+## 3:    2     35
+## 4:    6     16
+## 5:    5     27
+</code></pre>
+
+<h2 id="data-table的合并和更新">data.table的合并和更新</h2>
+
+<ol>
+<li><p>合并tb1, tb2</p>
+
+<pre><code class="language-r">tb3 &lt;- merge(tb1, tb2, by = &quot;pid1&quot;, all = TRUE, sort = FALSE)
+tb3
+</code></pre>
+
+<pre><code>##     pid1 day dayNew
+##  1:    2  32     35
+##  2:   10  52     NA
+##  3:    7  61     NA
+##  4:    5  41     27
+##  5:    6  40     16
+##  6:    4  60     38
+##  7:    3  83     NA
+##  8:    9  68     44
+##  9:    1   1     NA
+## 10:    8  67     NA
+</code></pre></li>
+
+<li><p>根据tb2进行更新</p>
+
+<pre><code class="language-r">tb3[, dayUpdate:=day]
+tb3[tb2, dayUpdate:=dayNew, on = &quot;pid1&quot;]
+tb3
+</code></pre>
+
+<pre><code>##     pid1 day dayNew dayUpdate
+##  1:    2  32     35        35
+##  2:   10  52     NA        52
+##  3:    7  61     NA        61
+##  4:    5  41     27        27
+##  5:    6  40     16        16
+##  6:    4  60     38        38
+##  7:    3  83     NA        83
+##  8:    9  68     44        44
+##  9:    1   1     NA         1
+## 10:    8  67     NA        67
+</code></pre></li>
+</ol>
+
+<h2 id="读取数据和写入数据">读取数据和写入数据</h2>
+
+<ol>
+<li><p>普通文本的格式，如txt, csv,用data.table包</p>
+
+<pre><code class="language-r">tb &lt;- fread(&quot;filepath&quot;)
+fwrite(tb, file = &quot;newFilepath&quot;)
+</code></pre></li>
+
+<li><p>xlsx格式，用openxlsx包, 不适用与office 2003的xls格式</p>
+
+<pre><code class="language-r">library(openxlsx)
+xlsx &lt;- read.xlsx(&quot;filepath&quot;)
+write.xlsx(xlsx, file = &quot;newFilepath&quot;)
+tb &lt;- data.table(xlsx) 
+</code></pre></li>
+</ol>
 
         </div>
 
@@ -120,7 +210,7 @@ ed2k://|file|SW_DVD5_Office_Professional_Plus_2010w_SP1_64Bit_ChnSimp_CORE_MLF_X
             
             <span class="post-categories">
                 
-                <a href="https://asepsiswu.github.io/categories/windows" rel="tag">windows</a>
+                <a href="https://asepsiswu.github.io/categories/r" rel="tag">R</a>
                 
             </span>
             
@@ -128,11 +218,7 @@ ed2k://|file|SW_DVD5_Office_Professional_Plus_2010w_SP1_64Bit_ChnSimp_CORE_MLF_X
             
             <span class="post-tags">
                 
-                <a href="https://asepsiswu.github.io/tags/windows" rel="tag">windows</a>&emsp;
-                
-                <a href="https://asepsiswu.github.io/tags/office" rel="tag">office</a>&emsp;
-                
-                <a href="https://asepsiswu.github.io/tags/crack" rel="tag">crack</a>&emsp;
+                <a href="https://asepsiswu.github.io/tags/r-tutorial" rel="tag">R tutorial</a>&emsp;
                 
             </span>
             

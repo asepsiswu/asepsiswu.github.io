@@ -6,10 +6,19 @@
     <description>Recent content on BioGoTop生物狗上天</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 16 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://asepsiswu.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>R simple application 1</title>
+      <link>https://asepsiswu.github.io/2019/10/26/r-simple-application-1/</link>
+      <pubDate>Sat, 26 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://asepsiswu.github.io/2019/10/26/r-simple-application-1/</guid>
+      <description>R的简单应用之merge</description>
+    </item>
     
     <item>
       <title>jupyter setting</title>
