@@ -3,7 +3,7 @@
     <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
-    <title>hugo github pages  - BioGoTop生物狗上天</title>
+    <title>gcp ssh login - BioGoTop生物狗上天</title>
 
     <style type="text/css">
         img.wp-smiley,
@@ -65,10 +65,10 @@
 <main role="main">
     <article role="article" class="post type-post format-standard hentry">
         <header class="post-header">
-            <h1>hugo github pages </h1>
+            <h1>gcp ssh login</h1>
             <div class="post-details">
                 <a rel="bookmark">
-                    <time datetime="2019-10-09T109:120:06">2019-10-09</time>
+                    <time datetime="2019-10-29T1029:120:06">2019-10-29</time>
                 </a>
 				
 <span style="float: right;">
@@ -76,11 +76,11 @@
     
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
     
-    <div class="fb-share-button" data-href="https://asepsiswu.github.io/2019/10/09/hugo-github-pages/" data-layout="button_count" data-size="small">
-        <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fasepsiswu.github.io%2f2019%2f10%2f09%2fhugo-github-pages%2f" class="fb-xfbml-parse-ignore">Share</a>
+    <div class="fb-share-button" data-href="https://asepsiswu.github.io/2019/10/29/gcp-ssh-login/" data-layout="button_count" data-size="small">
+        <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fasepsiswu.github.io%2f2019%2f10%2f29%2fgcp-ssh-login%2f" class="fb-xfbml-parse-ignore">Share</a>
     </div>
     &nbsp;
-    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="hugo github pages " data-url="https://asepsiswu.github.io/2019/10/09/hugo-github-pages/" data-show-count="false">Tweet</a>
+    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="gcp ssh login" data-url="https://asepsiswu.github.io/2019/10/29/gcp-ssh-login/" data-show-count="false">Tweet</a>
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     &nbsp;
     
@@ -92,13 +92,28 @@
         <div class="post-content">
             
 
-<h1 id="public-文件夹关联git">public 文件夹关联git</h1>
+<h1 id="google-cloud-ssh-登录">google cloud ssh 登录</h1>
 
-<pre><code>rm -rf public
-git clone git@github.com:asepsiswu/asepsiswu.github.io.git public
-</code></pre>
+<ol>
+<li><p>创建的示例 在浏览器窗口中打开，修改密码</p>
 
-<p>然后git add commit 和push</p>
+<pre><code class="language-bash">sudo -i
+passwd root
+
+</code></pre></li>
+
+<li><p>修改<code>sshd_config</code></p>
+
+<pre><code class="language-bash">vi /etc/ssh/sshd_config
+# change
+PermitRootLogin yes //默认为no，需要开启root用户访问改为yes
+PasswordAuthentication yes //默认为no，改为yes开启密码登陆
+
+/etc/init.d/ssh restart
+</code></pre></li>
+</ol>
+
+<p>在debian10中有效。</p>
 
         </div>
 
@@ -106,7 +121,7 @@ git clone git@github.com:asepsiswu/asepsiswu.github.io.git public
             
             <span class="post-categories">
                 
-                <a href="https://asepsiswu.github.io/categories/web" rel="tag">web</a>
+                <a href="https://asepsiswu.github.io/categories/linux" rel="tag">linux</a>
                 
             </span>
             
@@ -114,7 +129,7 @@ git clone git@github.com:asepsiswu/asepsiswu.github.io.git public
             
             <span class="post-tags">
                 
-                <a href="https://asepsiswu.github.io/tags/hugo" rel="tag">hugo</a>&emsp;
+                <a href="https://asepsiswu.github.io/tags/proxy" rel="tag">proxy</a>&emsp;
                 
             </span>
             
